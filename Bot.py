@@ -82,6 +82,7 @@ while True:
         print(f"RSI: {rsi:.2f}")
 
         print(f"Signal: {signal}")
+        print(f"Einstiegspreis: {price:.2f}")
 
         print(f"Stop-Loss: {stop_loss:.2f}")
 
