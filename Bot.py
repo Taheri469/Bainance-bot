@@ -1,15 +1,12 @@
 import ccxt
-import os
 import pandas as pd
-
 import time
-
+import os
 exchange = ccxt.binance({
     "apiKey": os.getenv("BINANCE_API_KEY"),
     "secret": os.getenv("BINANCE_API_SECRET"),
     "enableRateLimit": True,
 })
-
 symbols = ["BTC/USDT", "ETH/USDT", "SOL/USDT"]
 
 while True:
